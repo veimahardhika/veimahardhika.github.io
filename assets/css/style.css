@@ -123,3 +123,29 @@ body {
     height: 120em;
   }
 }
+
+.u-link,
+a {
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+}
+.u-link {
+  display: table;
+  border-style: solid;
+  border-bottom-width: 0;
+  white-space: nowrap;
+  align-self: flex-start;
+}
+.u-link,
+.u-link:hover,
+.u-link:focus {
+  text-decoration: none;
+}
+.u-link:focus,
+.u-link:active:focus,
+.u-link.active:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
